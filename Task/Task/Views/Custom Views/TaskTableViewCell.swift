@@ -38,7 +38,7 @@ class TaskTableViewCell: UITableViewCell {
         if task.isComplete {
             completionButton.setBackgroundImage(UIImage(named: "complete"), for: .normal)
         } else {
-            completionButton.setBackgroundImage(UIImage(named: "incomlete"), for: .normal)
+            completionButton.setBackgroundImage(UIImage(named: "incomplete"), for: .normal)
         }
     }
 
